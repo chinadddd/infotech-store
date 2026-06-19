@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoTech Store | Tecnologia Sem Limites</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+        <!-- CARRINHO LATERAL -->
+         <div id="badgeCarrinho">
+    🛒 0
+</div>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<div class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+
+        <h2>Seu Carrinho</h2>
+
+        <span id="closeCart">✖</span>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+        <p class="empty-cart">
+            Seu carrinho está vazio.
+        </p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Total:
+            <span id="cartTotal">
+                R$ 0,00
+            </span>
+        </h3>
+
+        <button class="checkout-btn">
+            Finalizar Compra
+        </button>
+
+    </div>
+
+</div>
+
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="logo">
+            <span>⚡</span> InfoTech Store
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#avaliacoes">Avaliações</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="btn-header">Comprar Agora</a>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-content">
+
+            <h1>
+                Energia para o dia inteiro.
+            </h1>
+
+            <p>
+                Conheça o Power Bank 20.000mAh mais vendido da InfoTech Store.
+                Carregamento rápido, alta capacidade e segurança total.
+            </p>
+
+            <a href="#produto" class="btn-principal">
+                Comprar Agora
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="imagens/powerbank.jpeg" alt="Power Bank 20000mAh">
+        </div>
+
+    </section>
+
+    <!-- PRODUTO CAMPEÃO -->
+
+    <section class="produto-destaque" id="produto">
+
+        <div class="produto-imagem">
+            <img src="imagens/powerbank.jpeg" alt="Power Bank">
+        </div>
+
+        <div class="produto-info">
+
+            <h2>Power Bank 20.000mAh</h2>
+
+            <p>
+                Nunca mais fique sem bateria.
+                Compatível com Android, iPhone, tablets e diversos dispositivos.
+            </p>
+
+            <ul>
+                <li>✔ 20.000mAh de capacidade</li>
+                <li>✔ Carregamento rápido</li>
+                <li>✔ Proteção contra superaquecimento</li>
+                <li>✔ Até 5 cargas completas</li>
+            </ul>
+
+            <div class="preco">
+
+                <span class="preco-antigo">
+                    R$ 299,90
+                </span>
+
+                <span class="preco-atual">
+                    R$ 149,90
+                </span>
+
+            </div>
+
+            <button class="btn-comprar">
+                Adicionar ao Carrinho
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- BENEFÍCIOS -->
+
+    <section class="beneficios" id="beneficios">
+
+        <h2>Por que escolher a InfoTech?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                🚚
+                <h3>Entrega Rápida</h3>
+                <p>Receba seu produto com segurança.</p>
+            </div>
+
+            <div class="card">
+                🔒
+                <h3>Compra Segura</h3>
+                <p>Ambiente protegido e confiável.</p>
+            </div>
+
+            <div class="card">
+                ⚡
+                <h3>Alta Performance</h3>
+                <p>Produtos tecnológicos de qualidade.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUTOS -->
+
+    <section class="produtos" id="produtos">
+
+        <h2>Produtos em Destaque</h2>
+
+        <div class="grid-produtos">
+
+            <div class="produto">
+    <img src="imagens/fone.jpeg" alt="Fone Bluetooth">
+    <h3>Fone Bluetooth</h3>
+    <span class="preco">R$ 89,90</span>
+
+    <button class="btn-comprar">
+        Adicionar ao Carrinho
+    </button>
+</div>
+
+            <div class="produto">
+    <img src="images/mouse.png" alt="Mouser Gamer RGB">
+    <h3>Mouse Gamer RGB</h3>
+    <span class="preco">R$ 59,90</span>
+
+    <button class="btn-comprar">
+        Adicionar ao Carrinho
+    </button>
+</div>
+
+            <div class="produto">
+    <img src="images/ssd.png" alt="SSD 480GB">
+    <h3>SSD 480GB</h3>
+    <span class="preco">R$ 669,90</span>
+
+    <button class="btn-comprar principal">
+        Adicionar ao Carrinho
+    </button>
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- AVALIAÇÕES -->
+
+    <section class="avaliacoes" id="avaliacoes">
+
+        <h2>O que nossos clientes dizem</h2>
+
+        <div class="depoimentos">
+
+            <div class="depoimento">
+                ⭐⭐⭐⭐⭐
+                <p>Excelente qualidade. Chegou rápido.</p>
+                <strong>Lucas M.</strong>
+            </div>
+
+            <div class="depoimento">
+                ⭐⭐⭐⭐⭐
+                <p>Power Bank dura muito. Recomendo.</p>
+                <strong>Amanda S.</strong>
+            </div>
+
+            <div class="depoimento">
+                ⭐⭐⭐⭐⭐
+                <p>Loja confiável e atendimento ótimo.</p>
+                <strong>Carlos R.</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+        <h2>
+            Garanta agora seu Power Bank 20.000mAh
+        </h2>
+
+        <a href="#" class="btn-principal">
+            Comprar Agora
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>InfoTech Store</h3>
+
+        <p>
+            Tecnologia, praticidade e inovação.
+        </p>
+
+        <p>
+            © 2026 Todos os direitos reservados.
+        </p>
+
+    </footer>
+    
+    <!-- CHECKOUT -->
+
+<div class="checkout-modal" id="checkoutModal">
+
+    <div class="checkout-box">
+
+        <span id="closeCheckout">✖</span>
+
+        <h2>Finalizar Pedido</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Nome Completo"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="E-mail"
+                required
+            >
+
+            <input
+                type="tel"
+                placeholder="WhatsApp"
+                required
+            >
+
+            <input
+                type="text"
+                placeholder="CEP"
+                required
+            >
+
+            <select>
+                <option>PIX</option>
+                <option>Cartão de Crédito</option>
+                <option>Boleto Bancário</option>
+            </select>
+
+            <button type="submit">
+                Confirmar Compra
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
