@@ -344,7 +344,7 @@ checkoutBtn.addEventListener("click", async () => {
     try {
 
         const resposta = await fetch(
-            "http://localhost:3000/criar-pagamento",
+            "https://infotech-store.onrender.com/criar-pagamento",
             {
                 method: "POST",
                 headers: {
